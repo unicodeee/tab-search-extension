@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Classic Tab Search</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div id="app">
+    <input id="search" type="search" autocomplete="off" spellcheck="false"
+      placeholder="Search tabs" autofocus />
+    <div id="meta"></div>
+    <ul id="tabs" role="listbox" aria-label="Open tabs"></ul>
+    <div id="error" hidden></div>
+    <div id="help">↑/↓ select · Enter switch · Esc close</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

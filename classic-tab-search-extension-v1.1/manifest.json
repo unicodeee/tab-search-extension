@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Classic Tab Search",
+  "version": "1.1.0",
+  "description": "A simple classic-style tab search popup for Edge/Chrome.",
+  "permissions": ["tabs", "windows"],
+  "action": {
+    "default_title": "Classic Tab Search",
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+A",
+        "windows": "Alt+Shift+A",
+        "mac": "Alt+Shift+A",
+        "chromeos": "Alt+Shift+A",
+        "linux": "Alt+Shift+A"
+      },
+      "description": "Open Classic Tab Search"
+    }
+  }
+}
