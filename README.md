@@ -1,15 +1,7 @@
 # tab-search-extension
-cmd + shift + A in Edge doesn't allow arrow select anymore (which is crazy) so I built this as an alternative.
+cmd + shift + A in Microsoft Edge doesn't allow arrow select anymore (which is R-Ridiculous) so I built this as an alternative. 
+Enjoy!
 
-# Classic Tab Search
-
-A small Manifest V3 browser extension for Microsoft Edge and Google Chrome that brings back a simple, classic-style tab search popup.
-
-It lets you search your open tabs by title or URL, move through results with the keyboard, and switch directly to the selected tab.
-
-## Why this exists
-
-Recent browser UI changes removed or altered the older tab search behavior that some users preferred. This extension provides a lightweight replacement with a compact popup and keyboard-first workflow.
 
 ## Features
 
